@@ -613,7 +613,9 @@ body{
     border-bottom: 1px solid;
     opacity: .7;
 }
-
+.info-section .image-block img{
+    width: 100%;
+}
 @media screen and (max-width:991px){
     .container>.navbar-header{
         margin: 0;
