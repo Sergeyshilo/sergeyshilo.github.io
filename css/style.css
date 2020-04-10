@@ -695,7 +695,7 @@ body{
     #footer>.container{
         flex-direction: column;
     }
-    #footer>.container>div{
+    #footer>.container>*{
         margin-bottom: 25px;
     }
     #footer .mail-head-container{
