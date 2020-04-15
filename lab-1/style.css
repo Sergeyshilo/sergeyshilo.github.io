@@ -2,3 +2,64 @@ h1{
     background: #4a4040;
     color: #ffffff;
 }
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    height: 100vh;
+    background: #fffaf1;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #32cd32;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: red;
+}
+ul li{
+    list-style: square;
+}
+.two p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.five, .two{
+    width: 25%;
+}
+.four{
+    width: 50%;
+}
+.footer td{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 25px;
+}
+.footer td:before, .footer td:after{
+    content: '<';
+    display: inline-block;
+    margin: 0 3px;
+}
+.footer td:after{
+    content: '>';
+}
+.five{
+    text-align: center;
+}
+.main>td{
+    border-right: 3px solid #4a4040;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main>td:last-child{
+    border: none;
+}
