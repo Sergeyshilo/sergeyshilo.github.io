@@ -42,4 +42,3 @@ function imageSize() {
 document.getElementById("size").addEventListener("click", function(){
     imageSize();
 });
-}
