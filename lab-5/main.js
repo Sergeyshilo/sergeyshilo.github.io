@@ -8,10 +8,10 @@ init();
 
 function randomImage(images) {
   var random = randomize(images);
-  var randomItem = images[random].src;
   while(randomItem === document.getElementById("image").src){
     random = randomize(images)
   }
+  var randomItem = images[random].src;
   document.getElementById("image").src = randomItem.toString();
 }
 
